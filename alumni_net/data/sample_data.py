@@ -1,0 +1,145 @@
+# data/sample_data.py
+"""
+Static sample data for Alumni Net system
+"""
+
+ALUMNI_DATA = [
+    {
+        'id': 'ALM001',
+        'name': 'John Smith',
+        'email': 'john.smith@email.com',
+        'graduation_year': 2015,
+        'degree': 'Computer Science',
+        'university': 'Stanford University',
+        'current_position': 'Senior Software Engineer',
+        'company': 'Google',
+        'industry': 'Technology',
+        'location': 'San Francisco, CA',
+        'skills': ['Python', 'Machine Learning', 'Cloud Computing', 'Docker', 'Kubernetes'],
+        'bio': 'Experienced software engineer specializing in machine learning and cloud infrastructure. Passionate about mentoring students interested in AI and distributed systems.',
+        'interests': ['AI/ML', 'Cloud Architecture', 'Open Source'],
+        'mentoring_areas': ['Career Development', 'Technical Skills', 'Interview Preparation'],
+        'availability': 'Available',
+        'years_experience': 8
+    },
+    {
+        'id': 'ALM002',
+        'name': 'Sarah Johnson',
+        'email': 'sarah.j@email.com',
+        'graduation_year': 2018,
+        'degree': 'Data Science',
+        'university': 'MIT',
+        'current_position': 'Data Scientist',
+        'company': 'Microsoft',
+        'industry': 'Technology',
+        'location': 'Seattle, WA',
+        'skills': ['R', 'Python', 'SQL', 'Tableau', 'Statistical Analysis', 'Deep Learning'],
+        'bio': 'Data scientist with expertise in predictive modeling and business intelligence. Love helping students transition from academia to industry.',
+        'interests': ['Data Visualization', 'Business Analytics', 'Healthcare Tech'],
+        'mentoring_areas': ['Data Science Projects', 'Portfolio Building', 'Industry Transition'],
+        'availability': 'Available',
+        'years_experience': 5
+    },
+    {
+        'id': 'ALM003',
+        'name': 'Michael Chen',
+        'email': 'mchen@email.com',
+        'graduation_year': 2012,
+        'degree': 'Computer Science',
+        'university': 'UC Berkeley',
+        'current_position': 'Engineering Manager',
+        'company': 'Meta',
+        'industry': 'Technology',
+        'location': 'Menlo Park, CA',
+        'skills': ['Java', 'System Design', 'Team Management', 'Agile', 'React'],
+        'bio': 'Engineering manager leading a team of 15 engineers. Former IC who transitioned to management. Happy to discuss career paths in tech.',
+        'interests': ['Leadership', 'System Architecture', 'Team Building'],
+        'mentoring_areas': ['Leadership Skills', 'Career Growth', 'Tech to Management Transition'],
+        'availability': 'Limited',
+        'years_experience': 11
+    },
+    {
+        'id': 'ALM004',
+        'name': 'Emily Rodriguez',
+        'email': 'emily.r@email.com',
+        'graduation_year': 2019,
+        'degree': 'Computer Science',
+        'university': 'Carnegie Mellon',
+        'current_position': 'ML Engineer',
+        'company': 'Tesla',
+        'industry': 'Automotive/AI',
+        'location': 'Austin, TX',
+        'skills': ['TensorFlow', 'PyTorch', 'Computer Vision', 'Python', 'C++'],
+        'bio': 'Machine learning engineer working on autonomous driving systems. Research background in computer vision and deep learning.',
+        'interests': ['Autonomous Vehicles', 'Computer Vision', 'Robotics'],
+        'mentoring_areas': ['Research to Industry', 'ML Engineering', 'Graduate School Advice'],
+        'availability': 'Available',
+        'years_experience': 4
+    },
+    {
+        'id': 'ALM005',
+        'name': 'David Wilson',
+        'email': 'dwilson@email.com',
+        'graduation_year': 2016,
+        'degree': 'Information Systems',
+        'university': 'NYU',
+        'current_position': 'Product Manager',
+        'company': 'Amazon',
+        'industry': 'E-commerce/Technology',
+        'location': 'New York, NY',
+        'skills': ['Product Strategy', 'Data Analysis', 'User Research', 'SQL', 'Jira'],
+        'bio': 'Product manager with background in engineering. Transitioned from SWE to PM role. Can help with career pivots and PM interviews.',
+        'interests': ['Product Development', 'User Experience', 'Strategy'],
+        'mentoring_areas': ['PM Transition', 'Product Thinking', 'Stakeholder Management'],
+        'availability': 'Available',
+        'years_experience': 7
+    }
+]
+
+STUDENT_DATA = [
+    {
+        'id': 'STU001',
+        'name': 'Alice Brown',
+        'email': 'alice.b@university.edu',
+        'expected_graduation': 2024,
+        'degree': 'Computer Science',
+        'university': 'Stanford University',
+        'gpa': 3.8,
+        'skills': ['Python', 'Java', 'Machine Learning Basics'],
+        'interests': ['Artificial Intelligence', 'Deep Learning', 'Computer Vision'],
+        'career_goals': 'I want to work as a machine learning engineer at a top tech company. Interested in computer vision applications.',
+        'looking_for': ['Technical Mentorship', 'Career Advice', 'Interview Preparation'],
+        'preferred_industry': 'Technology',
+        'projects': 'Built a CNN for image classification, contributed to open source ML projects'
+    },
+    {
+        'id': 'STU002',
+        'name': 'Bob Martinez',
+        'email': 'bob.m@university.edu',
+        'expected_graduation': 2025,
+        'degree': 'Data Science',
+        'university': 'UC Berkeley',
+        'gpa': 3.6,
+        'skills': ['Python', 'R', 'SQL', 'Statistics'],
+        'interests': ['Data Analytics', 'Business Intelligence', 'Healthcare'],
+        'career_goals': 'Looking to become a data scientist in healthcare or biotech industry. Want to apply ML to medical problems.',
+        'looking_for': ['Industry Insights', 'Project Guidance', 'Networking'],
+        'preferred_industry': 'Healthcare/Biotech',
+        'projects': 'Analyzed COVID-19 data patterns, built predictive model for patient outcomes'
+    },
+    {
+        'id': 'STU003',
+        'name': 'Carol Zhang',
+        'email': 'carol.z@university.edu',
+        'expected_graduation': 2024,
+        'degree': 'Computer Science',
+        'university': 'MIT',
+        'gpa': 3.9,
+        'skills': ['JavaScript', 'Python', 'React', 'Node.js'],
+        'interests': ['Product Management', 'User Experience', 'Startups'],
+        'career_goals': 'Interested in transitioning from engineering to product management. Want to understand how to break into PM roles.',
+        'looking_for': ['Career Transition Advice', 'PM Skills', 'Interview Prep'],
+        'preferred_industry': 'Technology/Startups',
+        'projects': 'Led development of campus marketplace app, conducted user research for startup idea'
+    }
+]
