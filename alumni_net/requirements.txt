@@ -23,3 +23,17 @@ faiss-cpu>=1.7.4
 python-dotenv>=1.0.0
 tabulate>=0.9.0
 colorama>=0.4.6
+
+
+Your Name: John Doe
+Your Email: john@university.edu
+University: MIT
+Degree Program: Computer Science
+Expected Graduation Year: 2025
+GPA: 3.7
+Skills: Python, Machine Learning, Data Analysis
+Interests: AI, Deep Learning, Computer Vision
+Career Goals: I want to work as an ML engineer in autonomous vehicles
+Preferred Industry: Technology/Automotive
+Looking For: Technical Mentorship, Career Advice, Interview Preparation
+Projects: Built image classification model, worked on robotics project
